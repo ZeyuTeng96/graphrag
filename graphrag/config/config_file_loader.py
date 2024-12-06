@@ -86,7 +86,7 @@ class ConfigYamlLoader(ConfigFileLoader):
         with config_path.open("rb") as file:
             data = yaml.safe_load(file.read().decode(encoding="utf-8", errors="strict"))
             return create_graphrag_config(data, root_dir)
-
+bbbbb
 
 class ConfigJsonLoader(ConfigFileLoader):
     """Load a configuration from a json file."""
